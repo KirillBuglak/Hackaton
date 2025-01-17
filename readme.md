@@ -1,4 +1,4 @@
-<h1 align="center">Интерактивный виджет пошагового инструктирования</h1>
+<h1 align="center">Interactive step-by-step instruction widget</h1>
 
 ----
 <p align="center">
@@ -12,30 +12,29 @@
 ## Stack
 Java, Spring Boot, Maven, JDBC, Hibernate, SQL, Lombok.
 ____
-## Краткое описание
-Проект представляет собой backend прототипа приложения "Цифровой Помощник",
-основной задачей которого является помощь при заполнении заявки на получение
-гранта на сайте https://myrosmol.ru
+## Short description
+This Spring Boot app is "Digital Helper",
+it supports completing the application on https://myrosmol.ru, which is the main task it solves
 ____
-## Интерфейс
+## UI
 <p align="center">
 <img src="imagesForReadme/5.jpeg"></p>
 <p align="center">
 <img src="imagesForReadme/6.jpeg"></p>
 
 ____
-### Навигатор
-Данный модуль отвечает за навигацию пользователя по сайту.
+### Navigator
+This module helps to navigate on site.
 <details>
-<summary>Структура БД</summary> 
+<summary>DB Structure</summary> 
 <p align="center">
 <img src="imagesForReadme/3.jpeg"></p>
-</details> 
+</details> 
 
 ____
-### Ассистент
-Данный модуль предоставляет пользователю ответ на поставленный вопрос. 
+### Assistant
+This is a FAQ module. 
 <details>
-<summary>Структура БД</summary> 
+<summary>DB Structure</summary> 
 <img src="imagesForReadme/4.jpeg"></p>
 </details>
